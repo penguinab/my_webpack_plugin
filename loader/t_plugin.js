@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+
 const ID = "penguin_plugin";
 const NS_CSS = "penguin_loader_css";
 const NS_JS = "penguin_loader_js";
@@ -59,7 +59,8 @@ class TPlugin {
       let loaderIndex = null;
       // 项目用了less，找到less-loader的位置
       moduleContext.loaders.forEach((loader, index) => {
-        if (/babel-loader/.test(loader.loader)) {
+        if (/babel-loader/.test(loader.loader)) { //"C:\\Users\\penguin\\Desktop\\pen-css\\node_modules\\vue-loader\\lib\\index.js"
+        // if (/vue-loader/.test(loader.loader)) {
           loaderIndex = index;
         }
       });

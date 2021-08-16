@@ -1,0 +1,17 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "penguin_loader_css.js",
+  "scripts": {
+    "test": "node ./util/cssTransformer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "3.2.1",
+    "fs-extra": "^10.0.0",
+    "postcss": "^8.3.6"
+  }
+}
